@@ -1,0 +1,36 @@
+:root {
+    --panel1: rgb(255, 0, 0);
+    --panel2: rgb(0, 255, 0);
+    --panel3: rgb(0, 0, 255);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #262626;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div.palet {
+    display: block;
+    float: left;
+    margin: 10px;
+    height: 300px;
+    width: 750px;
+    border-radius: 15px;
+}
+
+div.val {
+    background-color: #2626263d;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto auto;
+}
+
+div.val {
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+}

@@ -1,0 +1,56 @@
+<script src="app.js"></script>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" href="assets/icon.png">
+</head>
+<body>
+    <h1>Converter</h1>
+
+    <div class="palet" style="background-color: var(--panel1);">
+        <h2>Poids</h2>
+        <div class="val">
+            <label for="kilo">Kilogramme</label>
+                <input id="kilo" type="number" value="1">
+                <button onclick="kilo()">run</button>
+            </div>
+                <div class="val">                    
+                <label for="gramme">Gramme</label>
+                <input id="gramme" type="number" value="1000">
+                <button onclick="gramme()">run</button>
+            </div>
+            <div class="val">
+                <label for="pound">Pound</label>
+                <input id="pound" type="number" value="2.204623">
+                <button onclick="pound()">run</button>
+            </div>
+            <div class="val">
+                <label for="ounce">Ounce</label>
+                <input id="ounce" type="number" value="35.274">
+                <button onclick="ounce()">run</button>
+            </div>
+        </div>
+    </div>
+    <div class="palet" style="background-color: var(--panel2);">
+        <h2>Vitesse</h2>
+        <br>
+        <br>
+        <div class="val">
+            <label for="kiloh">Kilomètre per hours</label>
+            <input id="kiloh" type="number" value="1">
+            <button onclick="kiloh()">run</button>
+        </div>
+        <div class="val">                    
+            <label for="miles">Miles per hours</label>
+            <input id="miles" type="number" value="1000">
+            <button onclick="miles()">run</button>
+        </div>
+    </div>
+    <div class="palet" style="background-color: var(--panel3);"></div>
+</body>
+</html>
